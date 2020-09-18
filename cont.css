@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Nova+Square&display=swap');
+
+body {
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("https://wallpaperaccess.com/full/782186.jpg");
+background-size: cover;
+
+}
+
+
+h1 {
+    font-size: 70px;
+    color: #fff;
+    margin-bottom: 5rem;
+font-family: 'Nova Square', cursive;
+}
+
+
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 80rem;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-center {
+    justify-content: center;
+    align-items: center;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.hidden {
+    display: none;
+}
+
+.btn {
+    font-size: 30px;
+    padding: 20px;
+    width: 300px;
+    height: 40px;
+    text-align: center;
+    text-decoration: none;
+    color: rgb(28, 26, 26);
+    background: #ADFF2F;
+    border-radius: 4px;
+}
+
+.btn:hover {
+    cursor: pointer;
+    background: #7CFC00;
+    transition: transform 150ms;
+    transform: scale(1.03);
+}
+
+
+
+
+
+
